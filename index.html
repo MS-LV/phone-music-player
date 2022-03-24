@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--  <link rel="stylesheet" href="fontello-41f35d95/css/fontello-codes.css">
+    <link rel="stylesheet" href="fontello-41f35d95/css/fontello-embedded.css">
+    <link rel="stylesheet" href="fontello-41f35d95/css/fontello-ie7-codes.css">
+    <link rel="stylesheet" href="fontello-41f35d95/css/fontello-ie7.css"> -->
+    <link rel="stylesheet" href="fontello-41f35d95/css/fontello.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <figure>
+            <figcaption>Play Now Your Musics</figcaption>
+            <audio volume='0.1' id="audio" controls src="musics/trailer-sport-stylish-16073.mp3">
+                Your browser does not support the
+                <code>audio</code> element.
+            </audio>
+        </figure>
+        <div class="player__items">
+            <div class="player">&#9658</div>
+            <div class="stop"></div>
+            <div class="all__coords">
+                <div class="firstX__coords"></div>
+                <div class="lastX__coords"></div>
+                <input type="range" name="" min="0" value="0" max="100" class="minRange">
+            </div>
+            <div class="volume__items">
+                <div class="icon__volume">
+                    <img src="icons/volume on.png" class="volume__icon" alt="" srcset="">
+                    <input type="range" name="" min="1" value="50" max="100" volume="0.5" class="volume__range">
+                </div>
+            </div>
+            <div class="timeout">00/00</div>
+        </div>
+    </div>
+    <div class="list">
+        <label for="file">
+            <span class="download">Upload Your Musics </span>
+        </label>
+        <input type="file" name="" id="file">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
