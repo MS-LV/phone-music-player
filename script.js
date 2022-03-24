@@ -134,6 +134,7 @@ volumeRange.addEventListener('mousemove', function () {
     }
 })
 minRange.onclick = () => {
+    console.log(endPlay);
     if (minRange.value < startPlay && minRange.value > endPlay) {
         minRange.value = startPlay;
     } else {
